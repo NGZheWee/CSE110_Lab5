@@ -14,6 +14,7 @@ function init() {
   let idx = 0;
   for (let voice of voices) {
     voice_select.innerHTML += `<option value="${idx}" >${voice.name}</option>`;
+    idx++;
   }
 
   let selectedIndex = -1;
